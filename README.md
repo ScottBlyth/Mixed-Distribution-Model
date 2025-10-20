@@ -8,6 +8,6 @@ $$M = \sum_{i=1}^{n} p_i X_i$$
 
 where $\sum_{i=1}^n p_i = 1$
 
-Then, then given the counts of observations $a_1$, $a_2$,..., $a_k$, MDM_softmax find a p such maximises:
+Then, then given the counts of observations $a_1$, $a_2$,..., $a_k$, MDM_softmax finds a p that maximises:
 
 $$ Pr(a_1,a_2,...,a_k | X, p) $$ 
