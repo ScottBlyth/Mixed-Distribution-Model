@@ -39,10 +39,6 @@ def MDM_softmax(distributions, observations, iterations=1000, alpha=0.1,epsilon 
     return p
 
 if __name__ == "__main__":
-    def get_distribution(data, player_name):
-        data2 = data[data['player_name']==player_name]
-        data2 = data2.groupby(['player_name', 'roll'], as_index=False).count()
-        return data2[['roll', 'nth_roll']]
     x1 = np.array([0.1, 0.8, 0.1])
     x2 = np.array([0.1, 0.1, 0.8])
     x3 = np.array([0.4, 0.4, 0.2])
